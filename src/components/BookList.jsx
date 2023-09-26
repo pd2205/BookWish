@@ -16,7 +16,7 @@ const BookList = ({books, onDelete, onEdit}) => {
   })
 
   return (
-    <div>
+    <div className='book-list'>
       {renderedBooks}
     </div>
   )
