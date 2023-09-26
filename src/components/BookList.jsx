@@ -11,6 +11,7 @@ const BookList = ({books, onDelete, onEdit}) => {
         onDelete={onDelete}
         id={book.id}
         onEdit={onEdit}
+        
       />
     )
   })
